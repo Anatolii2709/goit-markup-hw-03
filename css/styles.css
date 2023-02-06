@@ -24,6 +24,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0;
 }
 
 body {
@@ -373,8 +374,13 @@ body {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: 48px;
-  padding-left: 16px;
-  border: 1px solid #e7e9fc;
+}
+
+.project-item-hp {
+  padding: 32px 16px;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 /* ------сетка на flax-------*/
@@ -386,7 +392,6 @@ body {
   letter-spacing: 0.02em;
   color: inherit;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 .project-text {
@@ -394,5 +399,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
-  margin-bottom: 32px;
 }
